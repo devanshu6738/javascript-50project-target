@@ -1,18 +1,13 @@
-var QRCode = require('qrcode');
+const username=document.getElementById("username");
+const button=document.getElementById('btn');
+const image=document.getElementById('img')
+ function getQr(qr){
+    image.src=`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qr}`;
+    
+}
 
-var canvas = document.getElementById('canvas');
-var generateQr = document.getElementById('buttonqr'); 
-var inputvalue = document.getElementById('inputtext'); 
-
-
-generateQr.addEventListener('click', () => {
-    const text = inputvalue.value; 
-    if (text) {
-        QRCode.toCanvas(canvas, text, function (error) {
-            if (error) console.error(error);
-            console.log('QR code generated successfully!');
-        });
-    } else {
-        alert("Please enter some text");
-    }
-});
+button.addEventListener('click',()=>{
+    const value=username.value;
+    getQr(value);
+   
+})
