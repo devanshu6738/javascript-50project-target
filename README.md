@@ -6,3 +6,5 @@ question 2=> Write a function to generate secure random passwords of various len
 question 3=>Write a code to generate a qrcode for text or link (use html css and js)
 
 question 4=> Create Weather App using Fetch api method
+
+question 5=>Create a Expense Tracker Web Application using html css js 
