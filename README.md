@@ -8,3 +8,5 @@ question 3=>Write a code to generate a qrcode for text or link (use html css and
 question 4=> Create Weather App using Fetch api method
 
 question 5=>Create a Expense Tracker Web Application using html css js 
+
+questiom 6=>Drag N Drop using html css and javascript
