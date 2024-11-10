@@ -10,3 +10,5 @@ question 4=> Create Weather App using Fetch api method
 question 5=>Create a Expense Tracker Web Application using html css js 
 
 questiom 6=>Drag N Drop using html css and javascript
+
+question 7=>write a program to Change background color at every one seconds
