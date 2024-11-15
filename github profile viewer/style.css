@@ -14,7 +14,7 @@
     align-items: center;
 }
 .box{
-    height: 70%;
+    height: 60%;
     width: 50%;
     background-color: #1C1C1C;
     border: 2px solid #242424;
@@ -49,4 +49,59 @@
     width: 15%;
     border: none;
     border-radius: 5px;
+}
+#img1{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.userprofile{
+    display: none;
+    margin-top: 30px;
+}
+.profile1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.follow{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.name1{
+    text-align: center;
+}
+.follow1{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.Follower{
+    text-align: center;
+}
+.Following{
+    text-align: center;
+}
+.Repository{
+    text-align: center;
+}
+#view{
+    width: 80%;
+    background-color: #171717;
+    text-align: center;
+    border: 1px solid #242424;
+    border-radius: 5px;
+    padding: 10px;
+}
+#username1{
+    color: #FFC700;
+}
+#link{
+    text-decoration: none;
+    color: white;
 }
