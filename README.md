@@ -1,4 +1,4 @@
-# javascript-50project-target
+# javascript-mini-projects
 question 1=> Create a function to generate a 6-digit One-Time Password (OTP) using random numbers
 
 question 2=> Write a function to generate secure random passwords of various lengths, including letters, numbers, and special characters
@@ -12,3 +12,5 @@ question 5=>Create a Expense Tracker Web Application using html css js
 questiom 6=>Drag N Drop using html css and javascript
 
 question 7=>write a program to Change background color at every one seconds
+
+question 8=>Github Profile Viewer
